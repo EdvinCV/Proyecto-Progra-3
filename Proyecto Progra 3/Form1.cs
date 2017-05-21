@@ -15,6 +15,13 @@ namespace Proyecto_Progra_3
         public Form1()
         {
             InitializeComponent();
+            //Leer Archivo de comunidad
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
