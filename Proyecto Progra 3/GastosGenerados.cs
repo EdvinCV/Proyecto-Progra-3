@@ -11,7 +11,7 @@ namespace Proyecto_Progra_3
         private string identificacion;
         private string descripcion;
         private int importe;
-        private int tipoDeZona;
+        private string tipoDeZona;
 
         public string Identificacion
         {
@@ -52,7 +52,7 @@ namespace Proyecto_Progra_3
             }
         }
 
-        public int TipoDeZona
+        public string TipoDeZona
         {
             get
             {

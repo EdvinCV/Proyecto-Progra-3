@@ -41,19 +41,6 @@ namespace Proyecto_Progra_3
             }
         }
 
-        public string Poblacion
-        {
-            get
-            {
-                return poblacion;
-            }
-
-            set
-            {
-                poblacion = value;
-            }
-        }
-
         public int NumZonas
         {
             get
@@ -90,6 +77,19 @@ namespace Proyecto_Progra_3
             set
             {
                 totalGastos = value;
+            }
+        }
+
+        public string Poblacion
+        {
+            get
+            {
+                return poblacion;
+            }
+
+            set
+            {
+                poblacion = value;
             }
         }
     }
