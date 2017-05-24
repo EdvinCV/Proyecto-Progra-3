@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Progra_3
 {
+    //ESTA CLASE SE UTILIZA PARA GUARDAR TODOS LOS DATOS DE LA COMUNIDAD Y PODER MOSTSRARLOS EN RESUMEN
     class Comunidad
     {
         private string identificacion;

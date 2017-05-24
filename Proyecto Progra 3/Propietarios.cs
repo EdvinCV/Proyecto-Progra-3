@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Progra_3
 {
+    //ESTA CLASE SE UTILIZA PARA GUARDAR LOS DATOS DE LOS PROPIETARIOS
     class Propietarios
     {
         private string nombre;

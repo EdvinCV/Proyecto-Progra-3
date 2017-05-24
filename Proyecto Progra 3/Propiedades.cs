@@ -5,27 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Proyecto_Progra_3
-{
+{ 
+    //ESTA CLASE PADRE SE UTILIZA PARA GUARDAR LOS DATOS DE LAS PROPIEDADES EN GENERAL
     class Propiedades
     {
-        private string tipo;
         private string codPropiedad;
         private int metrosCuadrados;
         private string codPropietario;
-        List<string> listaGastos;
-
-        public string Tipo
-        {
-            get
-            {
-                return tipo;
-            }
-
-            set
-            {
-                tipo = value;
-            }
-        }
+        private string NombrePropietario;
+        private List<string> listaGastos;
+        private string tipo;
 
         public string CodPropiedad
         {
@@ -53,6 +42,32 @@ namespace Proyecto_Progra_3
             }
         }
 
+        public string CodPropietario
+        {
+            get
+            {
+                return codPropietario;
+            }
+
+            set
+            {
+                codPropietario = value;
+            }
+        }
+
+        public string NombrePropietario1
+        {
+            get
+            {
+                return NombrePropietario;
+            }
+
+            set
+            {
+                NombrePropietario = value;
+            }
+        }
+
         public List<string> ListaGastos
         {
             get
@@ -66,16 +81,16 @@ namespace Proyecto_Progra_3
             }
         }
 
-        public string CodPropietario
+        public string Tipo
         {
             get
             {
-                return codPropietario;
+                return tipo;
             }
 
             set
             {
-                codPropietario = value;
+                tipo = value;
             }
         }
     }
