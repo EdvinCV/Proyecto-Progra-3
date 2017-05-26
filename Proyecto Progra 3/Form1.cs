@@ -201,6 +201,11 @@ namespace Proyecto_Progra_3
             FPropiedades mostrarPropiedades = new FPropiedades();
             mostrarPropiedades.Show();
         }
-        
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormPropietarios formProp = new FormPropietarios();
+            formProp.Show();
+        }
     }
 }
